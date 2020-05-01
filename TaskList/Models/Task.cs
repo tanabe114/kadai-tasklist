@@ -22,6 +22,7 @@ namespace TaskList.Models
 
         [DisplayName("期限")]
         [DataType(DataType.Date)]
+        [Required(ErrorMessage = "期限を入力してください。")]
         public DateTime DeadLine { get; set; }
 
         [DisplayName("作成日時")]
