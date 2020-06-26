@@ -139,6 +139,10 @@
     <Compile Include="Migrations\202005010519171_AddVaridation.Designer.cs">
       <DependentUpon>202005010519171_AddVaridation.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006260015478_modify.cs" />
+    <Compile Include="Migrations\202006260015478_modify.Designer.cs">
+      <DependentUpon>202006260015478_modify.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Task.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -204,6 +208,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005010519171_AddVaridation.resx">
       <DependentUpon>202005010519171_AddVaridation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006260015478_modify.resx">
+      <DependentUpon>202006260015478_modify.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
