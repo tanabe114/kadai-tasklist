@@ -91,3 +91,4 @@ C:\Users\t-tanabe\source\repos\TaskList\TaskList\obj\Debug\TaskList.pdb
 C:\Users\t-tanabe\source\repos\TaskList\TaskList\obj\Debug\TaskList.Migrations.InitialCreate.resources
 C:\Users\t-tanabe\source\repos\TaskList\TaskList\obj\Debug\TaskList.csproj.GenerateResource.cache
 C:\Users\t-tanabe\source\repos\TaskList\TaskList\obj\Debug\TaskList.Migrations.AddVaridation.resources
+C:\Users\t-tanabe\source\repos\TaskList\TaskList\obj\Debug\TaskList.Migrations.modify.resources

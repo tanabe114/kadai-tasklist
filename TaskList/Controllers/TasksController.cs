@@ -47,7 +47,7 @@ namespace TaskList.Controllers
         // 詳細については、https://go.microsoft.com/fwlink/?LinkId=317598 を参照してください。
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "Id,Title,Severity,DeadLine")] Task task)
+        public ActionResult Create([Bind(Include = "Id,Title,Content,Severity,DeadLine")] Task task)
         {
             if (ModelState.IsValid)
             {
@@ -82,7 +82,7 @@ namespace TaskList.Controllers
         // 詳細については、https://go.microsoft.com/fwlink/?LinkId=317598 を参照してください。
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "Id,Title,Severity,DeadLine,CreatedAt")] Task task)
+        public ActionResult Edit([Bind(Include = "Id,Title,Content,Severity,DeadLine,CreatedAt")] Task task)
         {
             if (ModelState.IsValid)
             {
